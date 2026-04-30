@@ -180,13 +180,10 @@
 
         .hero {
             position: relative;
-            min-height: min(760px, calc(100svh - 76px));
-            display: grid;
-            align-items: center;
             color: #ffffff;
             background:
-                linear-gradient(90deg, rgba(33, 21, 47, 0.94) 0%, rgba(51, 32, 71, 0.86) 43%, rgba(15, 118, 110, 0.58) 100%),
-                url("assets/promo/yacos-hero.jpg") center 34% / cover no-repeat,
+                radial-gradient(circle at 78% 32%, rgba(15, 118, 110, 0.56), transparent 38%),
+                linear-gradient(135deg, rgba(33, 21, 47, 0.98), rgba(21, 84, 83, 0.96)),
                 var(--plum-deep);
         }
 
@@ -205,9 +202,20 @@
             position: relative;
             z-index: 1;
             max-width: 1120px;
+            min-height: 690px;
             width: 100%;
             margin: 0 auto;
-            padding: 58px 16px 84px;
+            padding: 58px 16px 86px;
+            display: grid;
+            gap: 34px;
+            align-items: center;
+        }
+
+        .hero-copy,
+        .hero-media,
+        .hero-image,
+        .hero-phone {
+            min-width: 0;
         }
 
         .eyebrow {
@@ -238,6 +246,52 @@
             display: flex;
             flex-wrap: wrap;
             gap: 12px;
+        }
+
+        .hero-media {
+            position: relative;
+            min-height: 440px;
+            max-width: 100%;
+        }
+
+        .hero-image {
+            display: block;
+            width: min(100%, 620px);
+            margin: 86px 0 0;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 26px 60px rgba(0, 0, 0, 0.28);
+        }
+
+        .hero-image img {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            object-position: center 42%;
+            opacity: 0.82;
+        }
+
+        .hero-phone {
+            position: absolute;
+            top: 0;
+            right: 18px;
+            width: min(44%, 270px);
+            min-width: 220px;
+            margin: 0;
+            padding: 9px;
+            border-radius: 28px;
+            background: #121722;
+            box-shadow: 0 34px 74px rgba(0, 0, 0, 0.42);
+        }
+
+        .hero-phone img {
+            width: 100%;
+            aspect-ratio: 9 / 20;
+            border-radius: 21px;
+            object-fit: cover;
+            object-position: top center;
         }
 
         .button {
@@ -658,6 +712,15 @@
                 padding-bottom: 70px;
             }
 
+            .hero-media {
+                min-height: 360px;
+            }
+
+            .hero-phone {
+                width: min(44%, 230px);
+                min-width: 190px;
+            }
+
             .feature-grid,
             .screenshot-grid,
             .module-grid,
@@ -696,6 +759,12 @@
             }
         }
 
+        @media (min-width: 861px) {
+            .hero-inner {
+                grid-template-columns: 0.92fr 1.08fr;
+            }
+        }
+
         @media (max-width: 560px) {
             .band {
                 padding: 46px 16px;
@@ -710,9 +779,31 @@
 
             .hero-lead,
             .hero-actions,
-            .hero-points {
+            .hero-points,
+            .hero-media {
                 width: calc(100vw - 32px);
                 max-width: calc(100vw - 32px);
+            }
+
+            .hero-media {
+                min-height: 330px;
+                margin-top: 10px;
+            }
+
+            .hero-image {
+                margin-top: 68px;
+            }
+
+            .hero-phone {
+                right: 8px;
+                width: min(50%, 190px);
+                min-width: 168px;
+                padding: 6px;
+                border-radius: 22px;
+            }
+
+            .hero-phone img {
+                border-radius: 17px;
             }
 
             .hero-actions {
@@ -780,29 +871,39 @@
 <main id="top">
     <section class="hero" aria-labelledby="hero-title">
         <div class="hero-inner">
-            <div class="eyebrow">占いを、落ち着いて読み解くためのアプリ</div>
-            <h1 id="hero-title">YACOS FORTUNE <span class="title-break">TELLING</span></h1>
-            <p class="hero-lead">
-                星座占い、数秘術、タロット、おみくじ、手相など複数の占術を組み合わせて、今日・今週・今月の流れを読み解きます。結果は端末内に保存でき、初回案内、手相カメラガイド、共有時の確認まで落ち着いて進められます。
-            </p>
-            <div class="hero-actions">
-                <a class="button" href="#app">アプリの内容を見る</a>
-                <a class="button secondary" href="#screens">画面を見る</a>
-                <a class="button secondary" href="#privacy">プライバシーポリシー</a>
+            <div class="hero-copy">
+                <div class="eyebrow">占いを、落ち着いて読み解くためのアプリ</div>
+                <h1 id="hero-title">YACOS FORTUNE <span class="title-break">TELLING</span></h1>
+                <p class="hero-lead">
+                    星座占い、数秘術、タロット、おみくじ、手相など複数の占術を組み合わせて、今日・今週・今月の流れを読み解きます。結果は端末内に保存でき、初回案内、手相カメラガイド、共有時の確認まで落ち着いて進められます。
+                </p>
+                <div class="hero-actions">
+                    <a class="button" href="#app">アプリの内容を見る</a>
+                    <a class="button secondary" href="#screens">画面を見る</a>
+                    <a class="button secondary" href="#privacy">プライバシーポリシー</a>
+                </div>
+                <div class="hero-points" aria-label="YACOSの特徴">
+                    <div class="hero-point">
+                        <strong>はじめてでも進めやすい</strong>
+                        <span>初回案内、テーマ選択、手相カメラガイドまで、迷いにくい流れで進められます。</span>
+                    </div>
+                    <div class="hero-point">
+                        <strong>端末内で続けやすい</strong>
+                        <span>鑑定結果、入力履歴、フィードバックは端末内に保存され、見返しや再開に使えます。</span>
+                    </div>
+                    <div class="hero-point">
+                        <strong>共有前に内容を確認</strong>
+                        <span>共有文には生年月日、名前、手の画像、具体的な相談本文を含めない設計です。</span>
+                    </div>
+                </div>
             </div>
-            <div class="hero-points" aria-label="YACOSの特徴">
-                <div class="hero-point">
-                    <strong>はじめてでも進めやすい</strong>
-                    <span>初回案内、テーマ選択、手相カメラガイドまで、迷いにくい流れで進められます。</span>
-                </div>
-                <div class="hero-point">
-                    <strong>端末内で続けやすい</strong>
-                    <span>鑑定結果、入力履歴、フィードバックは端末内に保存され、見返しや再開に使えます。</span>
-                </div>
-                <div class="hero-point">
-                    <strong>共有前に内容を確認</strong>
-                    <span>共有文には生年月日、名前、手の画像、具体的な相談本文を含めない設計です。</span>
-                </div>
+            <div class="hero-media" aria-label="YACOSの世界観画像とアプリ画面">
+                <picture class="hero-image">
+                    <img src="assets/promo/yacos-hero.jpg" width="1024" height="1536" alt="占いの世界観を表すYACOSのイメージ画像">
+                </picture>
+                <figure class="hero-phone">
+                    <img src="assets/screenshots/yacos-home.jpg" width="540" height="1200" alt="テーマ選択と保存済み入力を表示するYACOSのホーム画面">
+                </figure>
             </div>
         </div>
     </section>
