@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>YACOS FORTUNE TELLING | アプリ紹介・プライバシーポリシー</title>
-    <meta name="description" content="YACOS FORTUNE TELLINGは、星座占い・数秘術・タロット・おみくじ・手相などを組み合わせて、今日・今週・今月の流れを読み解く占いアプリです。プライバシーポリシーも掲載しています。">
+    <meta name="description" content="YACOS FORTUNE TELLINGは、星座占い・数秘術・タロット・おみくじ・手相などを組み合わせて、今日・今週・今月の流れを読み解く占いアプリです。最新画面とプライバシーポリシーを掲載しています。">
     <meta property="og:title" content="YACOS FORTUNE TELLING | アプリ紹介・プライバシーポリシー">
-    <meta property="og:description" content="複数の占術を組み合わせ、結果履歴や共有時のプライバシーにも配慮した占いアプリです。">
+    <meta property="og:description" content="複数の占術を組み合わせ、オンボーディング、手相カメラガイド、履歴、共有時のプライバシーにも配慮した占いアプリです。">
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/promo/yacos-ogp.jpg">
     <meta property="og:locale" content="ja_JP">
@@ -328,6 +328,7 @@
         }
 
         .feature-grid,
+        .screenshot-grid,
         .module-grid,
         .policy-grid {
             margin-top: 28px;
@@ -337,6 +338,7 @@
         }
 
         .feature-card,
+        .screenshot-card,
         .module-card,
         .policy-card,
         .flow-step,
@@ -349,12 +351,14 @@
         }
 
         .feature-card,
+        .screenshot-card,
         .module-card,
         .policy-card {
             padding: 20px;
         }
 
         .feature-card p,
+        .screenshot-card p,
         .module-card p,
         .policy-card p {
             margin-top: 8px;
@@ -384,6 +388,29 @@
             color: var(--rose);
         }
 
+        .screenshot-grid {
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .screenshot-card {
+            padding: 10px;
+        }
+
+        .screenshot-card img {
+            width: 100%;
+            aspect-ratio: 9 / 20;
+            border-radius: 8px;
+            background: var(--plum-deep);
+            object-fit: cover;
+            object-position: top center;
+        }
+
+        .screenshot-card h3 {
+            margin-top: 12px;
+            font-size: 16px;
+        }
+
         .experience-layout {
             margin-top: 30px;
             display: grid;
@@ -393,10 +420,20 @@
         }
 
         .phone-preview {
+            max-width: 360px;
+            margin: 0 auto;
             border-radius: 26px;
             padding: 10px;
             background: #121722;
             box-shadow: 0 24px 58px rgba(31, 37, 50, 0.25);
+        }
+
+        .phone-preview img {
+            width: 100%;
+            aspect-ratio: 9 / 20;
+            border-radius: 20px;
+            object-fit: cover;
+            object-position: top center;
         }
 
         .phone-screen {
@@ -622,11 +659,24 @@
             }
 
             .feature-grid,
+            .screenshot-grid,
             .module-grid,
             .policy-grid,
             .experience-layout,
             .profile-panel {
                 grid-template-columns: 1fr;
+            }
+
+            .screenshot-grid {
+                display: flex;
+                overflow-x: auto;
+                padding-bottom: 6px;
+                scroll-snap-type: x proximity;
+            }
+
+            .screenshot-card {
+                flex: 0 0 min(72vw, 220px);
+                scroll-snap-align: start;
             }
 
             .hero-points {
@@ -718,6 +768,7 @@
         </a>
         <nav class="site-nav" aria-label="ページ内ナビゲーション">
             <a href="#app">アプリ紹介</a>
+            <a href="#latest">最新画面</a>
             <a href="#features">できること</a>
             <a href="#flow">鑑定の流れ</a>
             <a href="#privacy">プライバシー</a>
@@ -732,7 +783,7 @@
             <div class="eyebrow">占いを、落ち着いて読み解くためのアプリ</div>
             <h1 id="hero-title">YACOS FORTUNE <span class="title-break">TELLING</span></h1>
             <p class="hero-lead">
-                星座占い、数秘術、タロット、おみくじ、手相など複数の占術を組み合わせて、今日・今週・今月の流れを読み解きます。結果は端末内に保存でき、共有するときに含まれる情報も確認しながら使えます。
+                星座占い、数秘術、タロット、おみくじ、手相など複数の占術を組み合わせて、今日・今週・今月の流れを読み解きます。結果は端末内に保存でき、初回案内、手相カメラガイド、共有時の確認まで落ち着いて進められます。
             </p>
             <div class="hero-actions">
                 <a class="button" href="#privacy">プライバシーポリシーを見る</a>
@@ -740,17 +791,55 @@
             </div>
             <div class="hero-points" aria-label="YACOSの特徴">
                 <div class="hero-point">
-                    <strong>複数占術を総合</strong>
-                    <span>生年月日、テーマ、選択した占術をもとに、総合スコアと各占術の読みを整理します。</span>
+                    <strong>最新UIに更新</strong>
+                    <span>初回案内、手相カメラガイド、スコア演出、履歴画面をアプリらしく磨き込みました。</span>
                 </div>
                 <div class="hero-point">
-                    <strong>端末内の履歴保存</strong>
-                    <span>鑑定結果、入力履歴、フィードバックはアプリ内に保存され、見返しや再開に使えます。</span>
+                    <strong>端末内で続けやすい</strong>
+                    <span>鑑定結果、入力履歴、フィードバックは端末内に保存され、見返しや再開に使えます。</span>
                 </div>
                 <div class="hero-point">
                     <strong>共有前に内容を確認</strong>
                     <span>共有文には生年月日、名前、手の画像、具体的な相談本文を含めない設計です。</span>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="band alt" id="latest">
+        <div class="section-inner">
+            <p class="section-kicker">Latest Screens</p>
+            <h2>最新のエミュレーター画面を反映しました</h2>
+            <p class="section-lead">
+                2026年4月30日の更新内容をもとに、初回オンボーディング、ホーム、手相カメラガイド、鑑定中、結果画面を掲載しています。アプリのTOP画像と、鑑定中の9秒動画再生は維持しています。
+            </p>
+
+            <div class="screenshot-grid" aria-label="YACOSの最新画面">
+                <article class="screenshot-card">
+                    <img src="assets/screenshots/yacos-onboarding.jpg" alt="YACOSの初回オンボーディング画面">
+                    <h3>初回案内</h3>
+                    <p>世界観と使い方を、初回起動時に自然に確認できます。</p>
+                </article>
+                <article class="screenshot-card">
+                    <img src="assets/screenshots/yacos-home.jpg" alt="YACOSのホーム画面">
+                    <h3>ホーム</h3>
+                    <p>TOP画像を保ったまま、テーマ選択と保存済み入力へ進めます。</p>
+                </article>
+                <article class="screenshot-card">
+                    <img src="assets/screenshots/yacos-camera-guide.jpg" alt="YACOSの手相カメラガイド画面">
+                    <h3>手相ガイド</h3>
+                    <p>手のひらの位置合わせ枠で、撮影の迷いを減らします。</p>
+                </article>
+                <article class="screenshot-card">
+                    <img src="assets/screenshots/yacos-processing.jpg" alt="YACOSの鑑定中画面">
+                    <h3>鑑定中</h3>
+                    <p>9秒の動画演出を最後まで再生し、結果への期待感を作ります。</p>
+                </article>
+                <article class="screenshot-card">
+                    <img src="assets/screenshots/yacos-result.jpg" alt="YACOSの鑑定結果画面">
+                    <h3>結果画面</h3>
+                    <p>総合スコア、占術別の読み、行動ヒントを整理して表示します。</p>
+                </article>
             </div>
         </div>
     </section>
@@ -789,42 +878,7 @@
                 </div>
 
                 <div class="phone-preview" aria-label="YACOSの画面イメージ">
-                    <div class="phone-screen">
-                        <div class="phone-top">
-                            <img src="assets/promo/yacos-icon.webp" alt="" width="56" height="56">
-                            <strong>今日の流れを、複数の視点から</strong>
-                        </div>
-                        <div class="phone-body">
-                            <div class="score-row">
-                                <span>総合</span>
-                                <div class="score-bar"><span style="width: 82%"></span></div>
-                                <span>82</span>
-                            </div>
-                            <div class="score-row">
-                                <span>恋愛</span>
-                                <div class="score-bar"><span style="width: 74%"></span></div>
-                                <span>74</span>
-                            </div>
-                            <div class="score-row">
-                                <span>仕事</span>
-                                <div class="score-bar"><span style="width: 78%"></span></div>
-                                <span>78</span>
-                            </div>
-                            <div class="score-row">
-                                <span>成長</span>
-                                <div class="score-bar"><span style="width: 88%"></span></div>
-                                <span>88</span>
-                            </div>
-                            <div class="mini-panel">
-                                <strong>今日のヒント</strong>
-                                <p>強い流れを一気に使い切らず、確認と小さな行動に分けると安定しやすい日です。</p>
-                            </div>
-                            <div class="mini-panel">
-                                <strong>共有プレビュー</strong>
-                                <p>運勢スコア、公開用テーマ、ラッキー行動のみを確認してから共有できます。</p>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="assets/screenshots/yacos-result.jpg" alt="総合スコアと占術別の読みを表示したYACOSの結果画面">
                 </div>
             </div>
         </div>
@@ -847,7 +901,7 @@
                 <article class="feature-card">
                     <span class="tag">History</span>
                     <h3>鑑定履歴と入力履歴</h3>
-                    <p>端末内の履歴から、過去の結果や保存済み入力を再利用できます。</p>
+                    <p>端末内の履歴から、過去の結果や保存済み入力をタブで見返し、再利用できます。</p>
                 </article>
                 <article class="feature-card">
                     <span class="tag">Privacy</span>
@@ -908,12 +962,12 @@
                 <article class="feature-card">
                     <span class="tag">Reading</span>
                     <h3>鑑定処理を待つ</h3>
-                    <p>読みを整えるための処理画面をはさみ、完了後に結果へ移動します。</p>
+                    <p>鑑定中の動画を9秒最後まで再生し、完了後に結果へ移動します。</p>
                 </article>
                 <article class="feature-card">
                     <span class="tag">Result</span>
                     <h3>結果と詳細</h3>
-                    <p>総合サマリー、占術別の根拠、ラッキーアイテム、次の行動を確認できます。</p>
+                    <p>総合サマリー、スコアグラフ、占術別の根拠、ラッキーアイテム、次の行動を確認できます。</p>
                 </article>
             </div>
 
