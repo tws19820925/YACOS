@@ -6,7 +6,8 @@ YACOS FORTUNE TELLINGの公開ページです。`privacy_policy.html`をGoogle P
 
 - `privacy_policy.html`: アプリ紹介とプライバシーポリシー本体
 - `index.html`: ルートURLから`privacy_policy.html`へ移動する入口
-- `assets/promo/yacos-hero.jpg`: ヒーロー背景と画面イメージに使うアプリ由来のビジュアル
+- `assets/promo/yacos-hero.jpg`: アプリ由来の補助ビジュアル
+- `assets/promo/yacos-hero-image2.jpg`: ヒーローで使う占いイメージ画像
 - `assets/promo/yacos-icon.webp`: faviconとブランド表示に使うアプリアイコン
 - `assets/promo/yacos-ogp.jpg`: SNS等のプレビューで使う横長画像
 - `assets/screenshots/*.jpg`: アプリ紹介に掲載する画面画像
