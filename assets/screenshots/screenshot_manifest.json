@@ -1,0 +1,62 @@
+{
+  "updatedAt": "2026-05-06",
+  "freshnessDays": 45,
+  "sourceApp": {
+    "name": "YACOS FORTUNE TELLING",
+    "applicationId": "com.yacos.fortunetelling",
+    "versionName": "1.0",
+    "versionCode": 1
+  },
+  "privacyRules": [
+    "Do not include birth dates, names, palm images, consultation text, memo text, or other personal data.",
+    "Do not show medical, legal, investment, marriage, or career decisions as definitive advice.",
+    "Use screenshots that match the current Android app primary journey."
+  ],
+  "screenshots": [
+    {
+      "file": "assets/screenshots/yacos-onboarding.jpg",
+      "screen": "Onboarding",
+      "capturedAt": "2026-05-06",
+      "width": 540,
+      "height": 1200,
+      "maxBytes": 180000,
+      "requiredAlt": "YACOSの初回案内画面"
+    },
+    {
+      "file": "assets/screenshots/yacos-home.jpg",
+      "screen": "Home",
+      "capturedAt": "2026-05-06",
+      "width": 540,
+      "height": 1200,
+      "maxBytes": 180000,
+      "requiredAlt": "YACOSのホーム画面"
+    },
+    {
+      "file": "assets/screenshots/yacos-camera-guide.jpg",
+      "screen": "Palm camera guide",
+      "capturedAt": "2026-05-06",
+      "width": 540,
+      "height": 1200,
+      "maxBytes": 180000,
+      "requiredAlt": "YACOSの手相カメラガイド画面"
+    },
+    {
+      "file": "assets/screenshots/yacos-processing.jpg",
+      "screen": "Fortune processing",
+      "capturedAt": "2026-05-06",
+      "width": 540,
+      "height": 1200,
+      "maxBytes": 180000,
+      "requiredAlt": "YACOSの占い中画面"
+    },
+    {
+      "file": "assets/screenshots/yacos-result.jpg",
+      "screen": "Fortune result",
+      "capturedAt": "2026-05-06",
+      "width": 540,
+      "height": 1200,
+      "maxBytes": 180000,
+      "requiredAlt": "YACOSの占い結果画面"
+    }
+  ]
+}
