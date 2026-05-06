@@ -1,20 +1,19 @@
 # YACOS web page
 
-YACOS FORTUNE TELLINGの公開ページです。`privacy_policy.html`をGoogle Play等に提出するプライバシーポリシーURLとして使えるよう、アプリ紹介とポリシー本文を1ページに統合しています。
+YACOS FORTUNE TELLINGの公開ページです。`privacy_policy.html` は、アプリ紹介とプライバシーポリシーを1ページにまとめた公開URLとして利用します。
 
 ## Files
 
-- `privacy_policy.html`: アプリ紹介とプライバシーポリシー本体
-- `index.html`: ルートURLから`privacy_policy.html`へ移動する入口
-- `assets/promo/yacos-hero.jpg`: アプリ由来の補助ビジュアル
+- `privacy_policy.html`: アプリ紹介、安全な使い方、プライバシーポリシー本文
+- `index.html`: ルートURLから `privacy_policy.html` へ移動する入口
 - `assets/promo/yacos-hero-image2.jpg`: ヒーローで使う占いイメージ画像
 - `assets/promo/yacos-icon.webp`: faviconとブランド表示に使うアプリアイコン
-- `assets/promo/yacos-ogp.jpg`: SNS等のプレビューで使う横長画像
+- `assets/promo/yacos-ogp.jpg`: SNSなどのプレビューで使うOGP画像
 - `assets/screenshots/*.jpg`: アプリ紹介に掲載する画面画像
 
 ## Update Notes
 
-- アプリ側で外部送信、広告SDK、外部分析SDK、ログ送信、アカウント機能などを追加した場合は、`privacy_policy.html`の「保存場所と第三者提供」を必ず更新してください。
-- カメラ以外の権限を追加した場合は、権限の目的をプライバシーポリシーへ追記してください。
-- 共有文に含める情報を変えた場合は、「共有機能」の説明をアプリ実装に合わせて更新してください。
-- アプリの世界観画像と鑑定中の待機演出は、アプリ側の制約として維持してください。
+- アプリ側で共有文、履歴、入力項目、カメラ利用、通知利用を変更した場合は、公開ページの説明と矛盾しないか確認してください。
+- 医療、法律、投資、結婚、転職などの重要な判断を断定する表現は掲載しないでください。
+- スクリーンショットを差し替える場合は、個人情報や実在する相談本文が含まれていない画像を使ってください。
+- 公開ページの画像は、アプリの現在の主要導線と一致するものを優先してください。
