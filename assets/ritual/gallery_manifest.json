@@ -1,0 +1,783 @@
+{
+  "updatedAt": "2026-05-31",
+  "displayWatermark": "©arcadia-labs",
+  "watermarkMode": "html-overlay",
+  "sourceDir": "D:/GitHub/yacos_fortune_telling/app/src/main/res/drawable-nodpi",
+  "collections": {
+    "tarot": {
+      "expectedCount": 78,
+      "items": [
+        {
+          "name": "愚者",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_fool.webp",
+          "sourceFile": "tarot_card_fool.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 49186
+        },
+        {
+          "name": "魔術師",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_magician.webp",
+          "sourceFile": "tarot_card_magician.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 51630
+        },
+        {
+          "name": "女教皇",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_high_priestess.webp",
+          "sourceFile": "tarot_card_high_priestess.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 39934
+        },
+        {
+          "name": "女帝",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_empress.webp",
+          "sourceFile": "tarot_card_empress.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 59098
+        },
+        {
+          "name": "皇帝",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_emperor.webp",
+          "sourceFile": "tarot_card_emperor.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 55020
+        },
+        {
+          "name": "教皇",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_hierophant.webp",
+          "sourceFile": "tarot_card_hierophant.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 49182
+        },
+        {
+          "name": "恋人",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_lovers.webp",
+          "sourceFile": "tarot_card_lovers.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54788
+        },
+        {
+          "name": "戦車",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_chariot.webp",
+          "sourceFile": "tarot_card_chariot.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 53508
+        },
+        {
+          "name": "力",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_strength.webp",
+          "sourceFile": "tarot_card_strength.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 55122
+        },
+        {
+          "name": "隠者",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_hermit.webp",
+          "sourceFile": "tarot_card_hermit.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 50056
+        },
+        {
+          "name": "運命の輪",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_wheel_of_fortune.webp",
+          "sourceFile": "tarot_card_wheel_of_fortune.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 64542
+        },
+        {
+          "name": "正義",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_justice.webp",
+          "sourceFile": "tarot_card_justice.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 49698
+        },
+        {
+          "name": "吊るされた男",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_hanged_man.webp",
+          "sourceFile": "tarot_card_hanged_man.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 53882
+        },
+        {
+          "name": "死神",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_death.webp",
+          "sourceFile": "tarot_card_death.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 56134
+        },
+        {
+          "name": "節制",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_temperance.webp",
+          "sourceFile": "tarot_card_temperance.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 57186
+        },
+        {
+          "name": "悪魔",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_devil.webp",
+          "sourceFile": "tarot_card_devil.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 48172
+        },
+        {
+          "name": "塔",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_tower.webp",
+          "sourceFile": "tarot_card_tower.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 50348
+        },
+        {
+          "name": "星",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_star.webp",
+          "sourceFile": "tarot_card_star.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 49416
+        },
+        {
+          "name": "月",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_moon.webp",
+          "sourceFile": "tarot_card_moon.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 49488
+        },
+        {
+          "name": "太陽",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_sun.webp",
+          "sourceFile": "tarot_card_sun.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 56548
+        },
+        {
+          "name": "審判",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_judgement.webp",
+          "sourceFile": "tarot_card_judgement.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54132
+        },
+        {
+          "name": "世界",
+          "group": "大アルカナ",
+          "file": "assets/ritual/tarot/tarot_card_world.webp",
+          "sourceFile": "tarot_card_world.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 65158
+        },
+        {
+          "name": "ワンドA",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_ace.webp",
+          "sourceFile": "tarot_card_wands_ace.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 55852
+        },
+        {
+          "name": "ワンド2",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_two.webp",
+          "sourceFile": "tarot_card_wands_two.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 48340
+        },
+        {
+          "name": "ワンド3",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_three.webp",
+          "sourceFile": "tarot_card_wands_three.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 53416
+        },
+        {
+          "name": "ワンド4",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_four.webp",
+          "sourceFile": "tarot_card_wands_four.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 59752
+        },
+        {
+          "name": "ワンド5",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_five.webp",
+          "sourceFile": "tarot_card_wands_five.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 57756
+        },
+        {
+          "name": "ワンド6",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_six.webp",
+          "sourceFile": "tarot_card_wands_six.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 56594
+        },
+        {
+          "name": "ワンド7",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_seven.webp",
+          "sourceFile": "tarot_card_wands_seven.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 51588
+        },
+        {
+          "name": "ワンド8",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_eight.webp",
+          "sourceFile": "tarot_card_wands_eight.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54182
+        },
+        {
+          "name": "ワンド9",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_nine.webp",
+          "sourceFile": "tarot_card_wands_nine.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 49086
+        },
+        {
+          "name": "ワンド10",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_ten.webp",
+          "sourceFile": "tarot_card_wands_ten.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 56394
+        },
+        {
+          "name": "ワンドペイジ",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_page.webp",
+          "sourceFile": "tarot_card_wands_page.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54212
+        },
+        {
+          "name": "ワンドナイト",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_knight.webp",
+          "sourceFile": "tarot_card_wands_knight.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 56656
+        },
+        {
+          "name": "ワンドクイーン",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_queen.webp",
+          "sourceFile": "tarot_card_wands_queen.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 59820
+        },
+        {
+          "name": "ワンドキング",
+          "group": "ワンド",
+          "file": "assets/ritual/tarot/tarot_card_wands_king.webp",
+          "sourceFile": "tarot_card_wands_king.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54632
+        },
+        {
+          "name": "カップA",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_ace.webp",
+          "sourceFile": "tarot_card_cups_ace.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 56128
+        },
+        {
+          "name": "カップ2",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_two.webp",
+          "sourceFile": "tarot_card_cups_two.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 53498
+        },
+        {
+          "name": "カップ3",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_three.webp",
+          "sourceFile": "tarot_card_cups_three.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 58626
+        },
+        {
+          "name": "カップ4",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_four.webp",
+          "sourceFile": "tarot_card_cups_four.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 55540
+        },
+        {
+          "name": "カップ5",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_five.webp",
+          "sourceFile": "tarot_card_cups_five.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 47978
+        },
+        {
+          "name": "カップ6",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_six.webp",
+          "sourceFile": "tarot_card_cups_six.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 61106
+        },
+        {
+          "name": "カップ7",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_seven.webp",
+          "sourceFile": "tarot_card_cups_seven.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 55082
+        },
+        {
+          "name": "カップ8",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_eight.webp",
+          "sourceFile": "tarot_card_cups_eight.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 52528
+        },
+        {
+          "name": "カップ9",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_nine.webp",
+          "sourceFile": "tarot_card_cups_nine.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 55534
+        },
+        {
+          "name": "カップ10",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_ten.webp",
+          "sourceFile": "tarot_card_cups_ten.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54928
+        },
+        {
+          "name": "カップペイジ",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_page.webp",
+          "sourceFile": "tarot_card_cups_page.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54954
+        },
+        {
+          "name": "カップナイト",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_knight.webp",
+          "sourceFile": "tarot_card_cups_knight.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 56120
+        },
+        {
+          "name": "カップクイーン",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_queen.webp",
+          "sourceFile": "tarot_card_cups_queen.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 55240
+        },
+        {
+          "name": "カップキング",
+          "group": "カップ",
+          "file": "assets/ritual/tarot/tarot_card_cups_king.webp",
+          "sourceFile": "tarot_card_cups_king.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 55150
+        },
+        {
+          "name": "ソードA",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_ace.webp",
+          "sourceFile": "tarot_card_swords_ace.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 48010
+        },
+        {
+          "name": "ソード2",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_two.webp",
+          "sourceFile": "tarot_card_swords_two.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 47922
+        },
+        {
+          "name": "ソード3",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_three.webp",
+          "sourceFile": "tarot_card_swords_three.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54634
+        },
+        {
+          "name": "ソード4",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_four.webp",
+          "sourceFile": "tarot_card_swords_four.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 43106
+        },
+        {
+          "name": "ソード5",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_five.webp",
+          "sourceFile": "tarot_card_swords_five.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 47910
+        },
+        {
+          "name": "ソード6",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_six.webp",
+          "sourceFile": "tarot_card_swords_six.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 43004
+        },
+        {
+          "name": "ソード7",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_seven.webp",
+          "sourceFile": "tarot_card_swords_seven.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 41090
+        },
+        {
+          "name": "ソード8",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_eight.webp",
+          "sourceFile": "tarot_card_swords_eight.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 47510
+        },
+        {
+          "name": "ソード9",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_nine.webp",
+          "sourceFile": "tarot_card_swords_nine.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 36272
+        },
+        {
+          "name": "ソード10",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_ten.webp",
+          "sourceFile": "tarot_card_swords_ten.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 45846
+        },
+        {
+          "name": "ソードペイジ",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_page.webp",
+          "sourceFile": "tarot_card_swords_page.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 49948
+        },
+        {
+          "name": "ソードナイト",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_knight.webp",
+          "sourceFile": "tarot_card_swords_knight.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 52098
+        },
+        {
+          "name": "ソードクイーン",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_queen.webp",
+          "sourceFile": "tarot_card_swords_queen.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 49134
+        },
+        {
+          "name": "ソードキング",
+          "group": "ソード",
+          "file": "assets/ritual/tarot/tarot_card_swords_king.webp",
+          "sourceFile": "tarot_card_swords_king.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 46372
+        },
+        {
+          "name": "ペンタクルA",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_ace.webp",
+          "sourceFile": "tarot_card_pentacles_ace.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 50116
+        },
+        {
+          "name": "ペンタクル2",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_two.webp",
+          "sourceFile": "tarot_card_pentacles_two.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 51388
+        },
+        {
+          "name": "ペンタクル3",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_three.webp",
+          "sourceFile": "tarot_card_pentacles_three.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54738
+        },
+        {
+          "name": "ペンタクル4",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_four.webp",
+          "sourceFile": "tarot_card_pentacles_four.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 46940
+        },
+        {
+          "name": "ペンタクル5",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_five.webp",
+          "sourceFile": "tarot_card_pentacles_five.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 50662
+        },
+        {
+          "name": "ペンタクル6",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_six.webp",
+          "sourceFile": "tarot_card_pentacles_six.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 49238
+        },
+        {
+          "name": "ペンタクル7",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_seven.webp",
+          "sourceFile": "tarot_card_pentacles_seven.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 54540
+        },
+        {
+          "name": "ペンタクル8",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_eight.webp",
+          "sourceFile": "tarot_card_pentacles_eight.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 44222
+        },
+        {
+          "name": "ペンタクル9",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_nine.webp",
+          "sourceFile": "tarot_card_pentacles_nine.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 46830
+        },
+        {
+          "name": "ペンタクル10",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_ten.webp",
+          "sourceFile": "tarot_card_pentacles_ten.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 52772
+        },
+        {
+          "name": "ペンタクルペイジ",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_page.webp",
+          "sourceFile": "tarot_card_pentacles_page.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 44602
+        },
+        {
+          "name": "ペンタクルナイト",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_knight.webp",
+          "sourceFile": "tarot_card_pentacles_knight.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 38124
+        },
+        {
+          "name": "ペンタクルクイーン",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_queen.webp",
+          "sourceFile": "tarot_card_pentacles_queen.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 48002
+        },
+        {
+          "name": "ペンタクルキング",
+          "group": "ペンタクル",
+          "file": "assets/ritual/tarot/tarot_card_pentacles_king.webp",
+          "sourceFile": "tarot_card_pentacles_king.webp",
+          "width": 360,
+          "height": 540,
+          "bytes": 43712
+        }
+      ]
+    },
+    "omikuji": {
+      "expectedCount": 7,
+      "items": [
+        {
+          "name": "大吉",
+          "group": "おみくじ",
+          "file": "assets/ritual/omikuji/omikuji_paper_daikichi.webp",
+          "sourceFile": "omikuji_paper_daikichi.webp",
+          "width": 320,
+          "height": 622,
+          "bytes": 17780
+        },
+        {
+          "name": "吉",
+          "group": "おみくじ",
+          "file": "assets/ritual/omikuji/omikuji_paper_kichi.webp",
+          "sourceFile": "omikuji_paper_kichi.webp",
+          "width": 320,
+          "height": 622,
+          "bytes": 14740
+        },
+        {
+          "name": "中吉",
+          "group": "おみくじ",
+          "file": "assets/ritual/omikuji/omikuji_paper_chukichi.webp",
+          "sourceFile": "omikuji_paper_chukichi.webp",
+          "width": 320,
+          "height": 622,
+          "bytes": 20664
+        },
+        {
+          "name": "小吉",
+          "group": "おみくじ",
+          "file": "assets/ritual/omikuji/omikuji_paper_shokichi.webp",
+          "sourceFile": "omikuji_paper_shokichi.webp",
+          "width": 320,
+          "height": 622,
+          "bytes": 18366
+        },
+        {
+          "name": "末吉",
+          "group": "おみくじ",
+          "file": "assets/ritual/omikuji/omikuji_paper_suekichi.webp",
+          "sourceFile": "omikuji_paper_suekichi.webp",
+          "width": 320,
+          "height": 622,
+          "bytes": 17790
+        },
+        {
+          "name": "凶",
+          "group": "おみくじ",
+          "file": "assets/ritual/omikuji/omikuji_paper_kyo.webp",
+          "sourceFile": "omikuji_paper_kyo.webp",
+          "width": 320,
+          "height": 622,
+          "bytes": 14588
+        },
+        {
+          "name": "だいたい吉",
+          "group": "おみくじ",
+          "file": "assets/ritual/omikuji/omikuji_paper_yacos_kichi.webp",
+          "sourceFile": "omikuji_paper_yacos_kichi.webp",
+          "width": 320,
+          "height": 622,
+          "bytes": 22080
+        }
+      ]
+    }
+  }
+}
